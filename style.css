@@ -16,6 +16,11 @@ body {
     transition-duration: 0.1s;
   }
 
+  .nav ul {
+    list-style: none;
+    display: flex;
+  }
+
   nav:hover {
     color: #0065FC;
   }
