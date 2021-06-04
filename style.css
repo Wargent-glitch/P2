@@ -7,12 +7,36 @@ body {
   header {
     display: flex;
     justify-content: space-between;
+    padding: 0 2rem;
+  }
+
+  .mapIcon {
+    background-color: #F2F2F2;
+  padding: 1rem 1.25rem;
+  border-radius: 1rem 0 0 1rem;
+  text-align: center;
+  }
+
+  .search {
+    border-right: none;
+    border-left: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    padding: 1 1.25rem;
+    box-sizing: border-box;
+    width: 14rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Raleway", "Sans serif";
+  }
+
+  .filter {
     
   }
 
   .nav {
     font-weight: 500;
-    text-align: center;
+    justify-content: flex-end;
     transition-duration: 0.1s;
   }
 
@@ -23,10 +47,126 @@ body {
 
   nav:hover {
     color: #0065FC;
+    border-top: 2px #0065FC solid;
   }
 
   .signup {
     display: flex;
     color: #0065FC;
     font-weight: 600;
+  }
+
+  .info {
+
+  margin: auto;
+  padding: 0 2rem;
+  }
+
+  .navbar {
+    background-color: #0065FC;
+    color: white;
+    padding: 1rem 1.25rem;
+    border-radius: 0 1rem 1rem 0 ;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Raleway", "Sans serif";
+  }
+
+  p { 
+    margin: 0;
+  }
+
+  .hosting {
+    display: flex;
+    background-color: #F2F2F2;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    flex-direction: column;
+  }
+
+  .imgHosting {
+    background-color: white;
+    padding: 0.375rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 16px #0000002e;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 100%;
+    height: 7rem;
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .popular {
+    display: flex;
+    background-color: #F2F2F2;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    flex-direction: column;
+  }
+
+  .imgPopular {
+    background-color: white;
+    padding: 0.375rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 16px #0000002e;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 100%;
+    height: 7rem;
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .hostingMainCardGradeIcon {
+    color: #0065FC
+  }
+
+  .activity {
+    box-shadow: 0 0 20px #0000002e;
+  border-radius: 1rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition-duration: 0.1s;
+  }
+
+  .imgActivity {
+    background-color: white;
+    padding: 0.375rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 16px #0000002e;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 100%;
+    height: 7rem;
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  footer {
+    display: flex;
+    background-color: #F2F2F2;
+    justify-content: space-around;
+  }
+
+  .assist {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heberg {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .propos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
   }
