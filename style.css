@@ -46,6 +46,28 @@ body {
     justify-content: flex-end;
   }
 
+  .section1 {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .searchzone {
+    display: flex;
+    flex-direction: row;
+  }
+
+  @media screen and (max-width: 600px) {
+    
+  }
+
   .mapIcon {
     background-color: #F2F2F2;
     padding: 1rem 1.25rem;
@@ -64,10 +86,19 @@ body {
     font-size: 1rem;
     font-weight: bold;
     font-family: "Raleway", "Sans serif";
+    display: flex;
+    text-align: center;
   }
 
-  .filter {
-    
+  .icon {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    border: 2px solid #d9d9d9;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-weight: bold;
   }
 
   .info {
