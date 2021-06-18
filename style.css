@@ -17,8 +17,7 @@ body {
   }
 
   .logo {
-    padding: 0 2rem;
-    height: 2.813rem;
+    position: absolute;
   }
 
   .nav {
@@ -30,6 +29,7 @@ body {
     border-top: none;
     border-bottom: 3px solid #F2F2F2;
     width: 50%;
+
   }
 
   nav:hover {
@@ -42,5 +42,36 @@ body {
     align-items: center;
     padding: 2rem;
     color: #0065FC;
-    font-weight: 600
+    font-weight: 600;
+    justify-content: flex-end;
+  }
+
+  .hosting img {
+    margin: none;
+    width: 150px;
+  }
+
+  .activity img {
+    
+  }
+
+  footer {
+    display: flex;
+    background-color: #F2F2F2;
+    flex-direction: column;
+    
+  }
+  .assist {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heberg {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .propos {
+    display: flex;
+    flex-direction: column;
   }
