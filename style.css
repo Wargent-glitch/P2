@@ -51,8 +51,14 @@ body {
     width: 150px;
   }
 
+  .popular img {
+    margin: none;
+    width: 150px;
+  }
+
   .activity img {
-    
+    margin: none;
+    width: 150px;
   }
 
   footer {
