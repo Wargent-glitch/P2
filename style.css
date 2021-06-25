@@ -72,6 +72,17 @@ body {
     display: none;
   }
 
+  .searchzone button {
+    background-color: #0065FC;
+    color: white;
+    padding: 1rem 1.25rem;
+    border-radius: 0 1rem 1rem 0 ;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Raleway", "Sans serif";
+  }
+
   @media screen and (max-width: 600px) {
     
   }
@@ -200,7 +211,7 @@ body {
     border-radius: 1rem 1rem 0 0;
   }
 
-  footer, section
+  footer, section {}
 
   footer {
     display: flex;
