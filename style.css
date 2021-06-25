@@ -120,7 +120,7 @@ body {
     font-family: "Raleway", "Sans serif";
   }
 
-  .icon {
+  .filterbtn {
     display: flex;
     align-items: center;
     margin-right: 2rem;
