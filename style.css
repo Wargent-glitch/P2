@@ -74,6 +74,7 @@ body {
 
   .searchzone button {
     background-color: #0065FC;
+    border:none;
     color: white;
     padding: 1rem 1.25rem;
     border-radius: 1rem 1rem 1rem 1rem ;
