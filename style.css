@@ -135,19 +135,27 @@ body {
   .info {
     display: flex;
     align-items: center;
-    
+  }
+
+  .info p {
+    max-width: 80%;
   }
 
   .bulle {
+    border: 1px solid black;
     border-radius: 100%;
-    margin: 20px;
-    border: solid 1px #d9d9d9;
-    margin-right: 1rem;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .infoi {
-    color: blue;
+    color: #0065FC;
   }
+
+  
 
   .hosting {
     display: flex;
