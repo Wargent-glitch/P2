@@ -22,13 +22,12 @@ body {
 
   .logo {
     position: absolute;
-    padding-bottom: 75px;
+    top: 15px;
+    left: 17px;
   }
 
-  .nav {
+  nav {
     display: flex;
-    align-items: center;
-    padding: 25px;
     font-weight: 500;
     text-align: center;
     border-top: none;
@@ -38,12 +37,17 @@ body {
     
   }
 
-  .nav a:active {
+  nav a:active {
     color: #0065FC;
     border-bottom: 3px solid #0065FC;
   }
 
-  .nav div a:first-child {
+  nav div {
+    display: flex;
+    padding-bottom: 1em;
+  }
+
+  nav div a {
     width: 50%;
   }
 
@@ -140,6 +144,23 @@ body {
     margin-bottom: 1rem;
     cursor: pointer;
     font-weight: bold;
+    height: 40px;
+  }
+
+  .filterbtn p {
+    padding: 0 1em;
+  }
+
+  .filterbtn i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightskyblue;
+    border-radius: 25px;
+    color: #0065FC;
+    height: 40px;
+    width: 40px;
+    margin-left: -8px;
   }
 
   .info {
