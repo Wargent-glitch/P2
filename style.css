@@ -302,8 +302,21 @@ body {
     border-radius: 1rem 1rem 0 0;
   }
 
+  .containActivity h3 {
+    margin: 20px;
+  }
+
   .containFooter {
     display: flex;
-    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    margin: 30px;
+  }
+
+  .containFooter a {
+    margin-top: 15px;
+  }
+
+  .containFooter h3 {
+    margin-top: 45px;
   }
