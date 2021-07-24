@@ -301,3 +301,9 @@ body {
     object-fit: cover;
     border-radius: 1rem 1rem 0 0;
   }
+
+  .containFooter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
