@@ -49,11 +49,20 @@ body {
 
   nav div a {
     width: 50%;
+    color: lightgray;
+  }
+
+  nav div a:first-child {
+    width: 50%;
     color: #0065FC;
   }
 
   nav:hover {
     color: #0065FC;
+  }
+
+  .filterbtn {
+    
   }
 
   .filterbtn:hover {
