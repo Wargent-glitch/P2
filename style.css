@@ -2,6 +2,7 @@
 body {
     font-family: "Raleway", "Sans serif";
     margin: 0;
+    max-width: 1440px;
   }
 
   a {
@@ -16,7 +17,6 @@ body {
   header {
     display: flex;
     align-items: center;
-    max-width: 1440px;
     margin: auto;
   }
 
@@ -59,10 +59,6 @@ body {
 
   nav:hover {
     color: #0065FC;
-  }
-
-  .filterbtn {
-    
   }
 
   .filterbtn:hover {
@@ -110,10 +106,6 @@ body {
     font-size: 1rem;
     font-weight: bold;
     font-family: "Raleway", "Sans serif";
-  }
-
-  @media screen and (max-width: 600px) {
-    
   }
 
   .mapIcon {
@@ -169,7 +161,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: lightskyblue;
+    background-color: #DEEBFF;
     border-radius: 25px;
     color: #0065FC;
     height: 40px;
@@ -215,9 +207,6 @@ body {
     padding: 15px;
   }
   
-
-
-
   .hostingMainCardGradeIcon {
     color: lightgray;
   }
@@ -229,8 +218,6 @@ body {
     flex-direction: column;
     padding: 15px;
   }
-
- 
 
   .activity {
   background-color: white;
@@ -245,13 +232,11 @@ body {
     display: flex;
     background-color: #F2F2F2;
     flex-direction: column;
-    
   }
 
   .containActivity {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
-    
     margin: auto;
     margin-bottom: 0.5em;
     width: 97%;
@@ -339,4 +324,83 @@ body {
 
   .containFooter h3 {
     margin-top: 45px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    header img {
+      position: initial;
+    }
+
+    header { 
+      flex-direction: row;
+      align-items: baseline;
+    }
+
+    nav div a:first-child {
+      width: auto;
+    }
+
+    nav div a {
+      width: auto;
+      padding: 0;
+    }
+
+    nav {
+      width: 100%;
+      border: none;
+      align-items: baseline;
+      justify-content: flex-end;
+      flex-direction: row;
+    }
+
+    nav a {
+      margin: 15px 50px;
+    }
+
+    .signup {
+      padding: 0;
+    }
+
+    .section1 {
+      margin: 0;
+      max-width: 100%;
+    }
+
+    .filter {
+      flex-direction: row;
+    }
+
+    #hebergements {
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+
+    .hosting {
+      width: 55%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      background-color: #F2F2F2;
+      border-radius: 1.5em;
+    }
+
+    .containHost {
+      width: 75%;
+    }
+
+    .hosting img {
+      width: 97%;
+    }
+
+    .popular {
+      width: 35%;
+    }
+
+    .popular img {
+      width: 97%;
+    }
+
+    .containPopular {
+      flex-direction: row;
+    }
+
   }
