@@ -371,20 +371,22 @@ body {
     }
 
     #hebergements {
-      flex-wrap: wrap;
       flex-direction: row;
+      justify-content: space-between;
     }
 
     .hosting {
+      height: 250px;
+      display: flex;
       width: 55%;
       flex-direction: row;
-      flex-wrap: wrap;
       background-color: #F2F2F2;
       border-radius: 1.5em;
     }
 
     .containHost {
       width: 75%;
+      flex-wrap: wrap;
     }
 
     .hosting img {
