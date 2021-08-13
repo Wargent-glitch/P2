@@ -403,4 +403,30 @@ body {
       flex-direction: row;
     }
 
+    .containFooter {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 0;
+    }
+
+    .containFooter h3 {
+      margin-top: 0;
+    }
+
+    .propos {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .heberg {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .assist {
+      display: flex;
+      flex-direction: column;
+      margin-left: 15px;
+    }
+
   }
