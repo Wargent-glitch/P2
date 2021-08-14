@@ -325,6 +325,21 @@ body {
     margin-top: 45px;
   }
 
+  .propos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heberg {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .assist {
+    display: flex;
+    flex-direction: column;
+  }
+
   @media screen and (min-width: 1024px) {
     header img {
       position: initial;
