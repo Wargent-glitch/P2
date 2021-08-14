@@ -374,18 +374,21 @@ body {
       justify-content: space-between;
     }
 
+    .host {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
     .hosting {
-      height: 250px;
       display: flex;
       width: 55%;
-      flex-direction: row;
+      flex-direction: column;
       background-color: #F2F2F2;
       border-radius: 1.5em;
     }
 
     .containHost {
-      width: 75%;
-      flex-wrap: wrap;
+      width: 30%;
     }
 
     .hosting img {
@@ -404,8 +407,17 @@ body {
       flex-direction: row;
     }
 
+    .activ {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
     .activity {
-      flex-direction: row;
+      flex-direction: column;
+    }
+
+    .containActivity {
+      width: 30%;
     }
 
     .containFooter {
