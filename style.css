@@ -420,6 +420,10 @@ body {
       width: 30%;
     }
 
+    .growth {
+      width: 25%;
+    }
+
     .containFooter {
       flex-direction: row;
       justify-content: space-between;
