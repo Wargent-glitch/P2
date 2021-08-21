@@ -340,6 +340,74 @@ body {
     flex-direction: column;
   }
 
+  @media screen and (min-width: 376px) and (max-width: 1023px) {
+    header img {
+      position: initial;
+    }
+
+    header { 
+      flex-direction: row;
+      align-items: baseline;
+    }
+
+    nav div a:first-child {
+      width: auto;
+    }
+
+    nav div a {
+      width: auto;
+      padding: 0;
+    }
+
+    nav {
+      width: 100%;
+      border: none;
+      align-items: baseline;
+      justify-content: flex-end;
+      flex-direction: row;
+    }
+
+    nav a {
+      margin: 15px 50px;
+    }
+
+    .signup {
+      padding: 0;
+    }
+    
+    .section1 {
+      margin: 0;
+      max-width: 100%;
+    }
+    
+    .containFooter {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 0;
+    }
+
+    .containFooter h3 {
+      margin-top: 0;
+    }
+
+    .propos {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .heberg {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .assist {
+      display: flex;
+      flex-direction: column;
+      margin-left: 15px;
+    }
+
+  }
+
   @media screen and (min-width: 1024px) {
     header img {
       position: initial;
