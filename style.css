@@ -255,8 +255,8 @@ body {
     margin: 5px;
     height: 150px;
     object-fit: cover;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
   }
 
   .containPopular {
@@ -418,8 +418,14 @@ body {
       align-items: baseline;
     }
 
-    filter {
-      display:flex;
+    .filter h2 {
+      width: 100%;
+    }
+
+    .filter {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
     }
 
     nav div a:first-child {
@@ -468,7 +474,7 @@ body {
 
     .hosting {
       display: flex;
-      width: 55%;
+      width: 63%;
       flex-direction: column;
       background-color: #F2F2F2;
       border-radius: 1.5em;
@@ -483,7 +489,7 @@ body {
     }
 
     .popular {
-      width: 35%;
+      width: 30%;
     }
 
     .popular img {
@@ -497,10 +503,11 @@ body {
     .activ {
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-around;
     }
 
     .activ>.containActivity {
-      height: 400px;
+      height: 410px;
     }
 
     .activity {
@@ -508,12 +515,12 @@ body {
     }
 
     .containActivity {
-      width: 25%;
+      width: 20%;
       margin: 0;
     }
 
     .containActivity img {
-      height: 250px;
+      height: 366px;
     }
 
     .growth {
