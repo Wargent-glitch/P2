@@ -419,7 +419,7 @@ body {
     }
 
     filter {
-      
+      display:flex;
     }
 
     nav div a:first-child {
