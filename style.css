@@ -2,6 +2,7 @@
 body {
     font-family: "Raleway", "Sans serif";
     margin: 0;
+    max-width: 1920px;
   }
 
   a {
@@ -16,7 +17,6 @@ body {
   header {
     display: flex;
     align-items: center;
-    max-width: 1440px;
     margin: auto;
   }
 
@@ -34,7 +34,6 @@ body {
     border-bottom: 3px solid #F2F2F2;
     width: 100%;
     flex-direction: column-reverse;
-    
   }
 
   nav a:active {
@@ -49,9 +48,19 @@ body {
 
   nav div a {
     width: 50%;
+    color: lightgray;
+  }
+
+  nav div a:first-child {
+    width: 50%;
+    color: #0065FC;
   }
 
   nav:hover {
+    color: #0065FC;
+  }
+
+  .filterbtn:hover {
     color: #0065FC;
     border-bottom: 2px #0065FC;
   }
@@ -96,10 +105,6 @@ body {
     font-size: 1rem;
     font-weight: bold;
     font-family: "Raleway", "Sans serif";
-  }
-
-  @media screen and (max-width: 600px) {
-    
   }
 
   .mapIcon {
@@ -155,7 +160,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: lightskyblue;
+    background-color: #DEEBFF;
     border-radius: 25px;
     color: #0065FC;
     height: 40px;
@@ -201,9 +206,6 @@ body {
     padding: 15px;
   }
   
-
-
-
   .hostingMainCardGradeIcon {
     color: lightgray;
   }
@@ -216,49 +218,27 @@ body {
     padding: 15px;
   }
 
- 
-
   .activity {
-    background-color: white;
-  box-shadow: 0 0 20px #0000002e;
+  background-color: white;
+  padding: 1em 0;
   border-radius: 1rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  transition-duration: 0.1s;
-  }
-
-  .activity img {
-    
-    object-fit: cover;
-    box-shadow: 0 0 16px #0000002e;
-    transition-duration: 0.1s;
-    cursor: pointer;
-    box-sizing: border-box;
-    height: auto;
-    border-radius: 1rem 1rem 0 0;
-    width: 100%;
   }
 
   footer {
     display: flex;
     background-color: #F2F2F2;
     flex-direction: column;
-    
-  }
-  .assist {
-    display: flex;
-    flex-direction: column;
   }
 
-  .heberg {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .propos {
-    display: flex;
-    flex-direction: column;
+  .containActivity {
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    margin: auto;
+    margin-bottom: 0.5em;
+    width: 97%;
   }
 
   .containHost {
@@ -267,6 +247,7 @@ body {
     border-radius: 25px;
     box-shadow: 0px 0px 10px 0px lightgray;
     margin: 0 auto;
+    margin-bottom: 1em;
   }
 
   .containHost img {
@@ -284,6 +265,7 @@ body {
     border-radius: 25px;
     box-shadow: 0px 0px 10px 0px lightgray;
     margin: 0 auto;
+    margin-bottom: 1em;
   }
 
   .containPopular a {
@@ -316,11 +298,11 @@ body {
   }
 
   .containActivity img {
-    width: 97%;
+    width: 100%;
     height: 150px;
-    margin: 5px;
+    border-radius: 1em 1em 0 0;
     object-fit: cover;
-    border-radius: 1rem 1rem 0 0;
+
   }
 
   .containActivity h3 {
@@ -336,8 +318,240 @@ body {
 
   .containFooter a {
     margin-top: 15px;
+    width: 100%;
   }
 
   .containFooter h3 {
     margin-top: 45px;
+  }
+
+  .propos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heberg {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .assist {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: 430px) and (max-width: 1023px) {
+    header img {
+      position: initial;
+    }
+
+    header { 
+      flex-direction: row;
+      align-items: baseline;
+    }
+
+    nav div a:first-child {
+      width: auto;
+    }
+
+    nav div a {
+      width: auto;
+      padding: 0;
+    }
+
+    nav {
+      width: 100%;
+      border: none;
+      align-items: baseline;
+      justify-content: flex-end;
+      flex-direction: row;
+    }
+
+    nav a {
+      margin: 15px 50px;
+    }
+
+    .signup {
+      padding: 0;
+    }
+    
+    .section1 {
+      margin: 0;
+      max-width: 100%;
+    }
+    
+    .containFooter {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 0;
+    }
+
+    .containFooter h3 {
+      margin-top: 0;
+    }
+
+    .propos {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .heberg {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .assist {
+      display: flex;
+      flex-direction: column;
+      margin-left: 15px;
+    }
+
+  }
+
+  @media screen and (min-width: 1024px) {
+    header img {
+      position: initial;
+    }
+
+    header { 
+      flex-direction: row;
+      align-items: baseline;
+    }
+
+    filter {
+      
+    }
+
+    nav div a:first-child {
+      width: auto;
+    }
+
+    nav div a {
+      width: auto;
+      padding: 0;
+    }
+
+    nav {
+      width: 100%;
+      border: none;
+      align-items: baseline;
+      justify-content: flex-end;
+      flex-direction: row;
+    }
+
+    nav a {
+      margin: 15px 50px;
+    }
+
+    .signup {
+      padding: 0;
+    }
+
+    .section1 {
+      margin: 0;
+      max-width: 100%;
+    }
+
+    .filter {
+      flex-direction: row;
+    }
+
+    #hebergements {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .host {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .hosting {
+      display: flex;
+      width: 55%;
+      flex-direction: column;
+      background-color: #F2F2F2;
+      border-radius: 1.5em;
+    }
+
+    .containHost {
+      width: 30%;
+    }
+
+    .hosting img {
+      width: 97%;
+    }
+
+    .popular {
+      width: 35%;
+    }
+
+    .popular img {
+      width: 97%;
+    }
+
+    .containPopular {
+      flex-direction: row;
+    }
+
+    .activ {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .activ>.containActivity {
+      height: 400px;
+    }
+
+    .activity {
+      flex-direction: column;
+    }
+
+    .containActivity {
+      width: 25%;
+      margin: 0;
+    }
+
+    .containActivity img {
+      height: 250px;
+    }
+
+    .growth {
+      width: 25%;
+    }
+
+    .growth .containActivity {
+      width: 100%;
+    }
+
+    .growth .containActivity img {
+      height: 150px;
+    }
+
+    .containFooter {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 0;
+    }
+
+    .containFooter h3 {
+      margin-top: 0;
+    }
+
+    .propos {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .heberg {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .assist {
+      display: flex;
+      flex-direction: column;
+      margin-left: 15px;
+    }
+
   }
