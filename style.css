@@ -340,11 +340,7 @@ body {
     flex-direction: column;
   }
 
-<<<<<<< HEAD
   @media screen and (min-width: 430px) and (max-width: 1023px) {
-=======
-  @media screen and (min-width: 376px) and (max-width: 1023px) {
->>>>>>> 476922f8d539e0b0802c1cc1fe85494dac686b1b
     header img {
       position: initial;
     }
@@ -422,13 +418,10 @@ body {
       align-items: baseline;
     }
 
-<<<<<<< HEAD
     filter {
       display:flex;
     }
 
-=======
->>>>>>> 476922f8d539e0b0802c1cc1fe85494dac686b1b
     nav div a:first-child {
       width: auto;
     }
